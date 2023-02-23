@@ -25,6 +25,10 @@ void times_table(void)
 			{
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
+				if (mult == 9)
+
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
