@@ -13,50 +13,15 @@ void times_table(void)
 	for (j = 0; j <= 9; j++)
 
 	{
-	putchar((i * j) / 10 + '0');
-	putchar((i * j) % 10 + '0');
+	_putchar((i * j) / 10 + '0');
+	_putchar((i * j) % 10 + '0');
 
 	if (j != 9)
 		{
-		putchar(',');
-		putchar(' ');
+		_putchar(',');
+		_putchar(' ');
 		}
 	}
-	putchar('\n');
+	_putchar('\n');
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
