@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ * _putchar(str[i])- writes the character c to stdout
  * _puts - this function prints a string, followed by a new line, to stdout
  * @str: the string to print
- * _putchar: for character inputs
+ * Return: string
  */
 
 void _puts(char *str)
